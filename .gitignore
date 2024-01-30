@@ -1,3 +1,4 @@
+# Official Recommendation
 docs/.vitepress/cache/deps/_metadata.json
 docs/.vitepress/cache/deps/@theme_index.js
 docs/.vitepress/cache/deps/@theme_index.js.map
@@ -12,3 +13,5 @@ docs/.vitepress/cache/deps/vitepress___@vueuse_core.js
 docs/.vitepress/cache/deps/vitepress___@vueuse_core.js.map
 docs/.vitepress/cache/deps/vue.js
 docs/.vitepress/cache/deps/vue.js.map
+
+node_modules
