@@ -4,8 +4,11 @@ layout: home
 
 hero:
   name: "Kaka Blogs"
-  text: ""
-  tagline: My great project tagline
+  text: "学习笔记"
+  tagline: ""
+  image:
+    src: /Imgs/08.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
