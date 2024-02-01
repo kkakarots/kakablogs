@@ -7,7 +7,7 @@ hero:
   text: "学习笔记"
   tagline: ""
   image:
-    src: /Imgs/08.png
+    src: /Imgs/logo-light.svg
     alt: VitePress
   actions:
     - theme: brand
