@@ -36,7 +36,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "简介",
       items: [
         {
-          text: "OpenGL简介",
+          text: "01.欢迎来到OpenGL",
           link: "/columnGraphics/OpenGL/index.md",
         },
       ],
@@ -46,27 +46,27 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "来自博主Cherno的OpenGL教程",
       items: [
         {
-          text: "01.Setting up OpenGL and creating a window in C++",
+          text: "02.设置OpenGL和在C++中创建一个窗口",
           link: "/columnGraphics/OpenGL/001.md",
         },
         {
-          text: "02.Using Modern OpenGL in C++",
+          text: "03.在C++中使用现代OpenGL",
           link: "/columnGraphics/OpenGL/002.md",
         },
         {
-          text: "03.Vertex Buffers and Drawing a Triangle in OpenGL",
+          text: "04.顶点缓冲区和在现代OpenGL中画一个三角形",
           link: "/columnGraphics/OpenGL/003.md",
         },
         {
-          text: "04.Vertex Attributes and Layouts in OpenGL",
+          text: "05.在OpenGL中顶点的属性和布局",
           link: "/columnGraphics/OpenGL/004.md",
         },
         {
-          text: "05.How Shaders Work in OpenGL",
+          text: "06.在OpenGL中着色器的原理",
           link: "/columnGraphics/OpenGL/005.md",
         },
         {
-          text: "06.Writing a Shader in OpenGL",
+          text: "07.在OpenGL中写一个着色器",
           link: "/columnGraphics/OpenGL/006.md",
         },
       ],
