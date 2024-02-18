@@ -61,6 +61,14 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "操作系统",
         link: "/columnBase/OS/",
       },
+      {
+        text: "数据结构",
+        link: "/columnBase/DataStructure/",
+      },
+      {
+        text: "C程序设计",
+        link: "/columnBase/C/",
+      },
     ],
   },
   {

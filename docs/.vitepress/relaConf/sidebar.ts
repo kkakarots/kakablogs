@@ -150,8 +150,42 @@ export const sidebar: DefaultTheme.Sidebar = {
   /**
    * 计算机基础
    * ├─ 计算机网络
-   * └─ 操作系统
+   * ├─ 操作系统
+   * ├─ 数据结构
+   * └─ C程序设计
    */
+  "/columnBase/DataStructure/": [
+    // First part
+    {
+      text: "数据结构",
+      items: [
+        {
+          text: "简介",
+          link: "/columnBase/DataStructure/index.md",
+        },
+        {
+          text: "第一章",
+          link: "/columnBase/DataStructure/001.md",
+        },
+        {
+          text: "第二章",
+          link: "/columnBase/DataStructure/002.md",
+        },
+      ],
+    },
+  ],
+  "/columnBase/C/": [
+    // First part
+    {
+      text: "C程序设计",
+      items: [
+        {
+          text: "简介",
+          link: "/columnBase/C/index.md",
+        },
+      ],
+    },
+  ],
 
   /**
    * 后端
