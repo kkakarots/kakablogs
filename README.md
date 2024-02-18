@@ -1,5 +1,5 @@
 # blogs
-![Image](http://gitee.com/static/images/logo.gif?20171106)
+![Image](/docs/public/Imgs/logo-dark.svg)
 
 #### 介绍
 基于vitepress的个人知识库
