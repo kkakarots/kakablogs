@@ -1,5 +1,5 @@
 # blogs
-![Image](/docs/public/Imgs/logo-dark.svg)
+![Image](/docs/public/Imgs/logo-light.svg)
 
 #### 介绍
 基于vitepress的个人知识库
