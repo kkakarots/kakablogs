@@ -38,4 +38,5 @@ features:
   import home from './components/home.vue'
 </script>
 
+
 <home />

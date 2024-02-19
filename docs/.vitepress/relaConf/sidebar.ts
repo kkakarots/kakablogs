@@ -152,7 +152,7 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─ 计算机网络
    * ├─ 操作系统
    * ├─ 数据结构
-   * └─ C程序设计
+   * └─ 程序设计
    */
   "/columnBase/DataStructure/": [
     // First part
@@ -164,7 +164,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnBase/DataStructure/index.md",
         },
         {
-          text: "第一章",
+          text: "绪论",
           link: "/columnBase/DataStructure/001.md",
         },
         {
@@ -174,14 +174,14 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
-  "/columnBase/C/": [
+  "/columnBase/Programming/": [
     // First part
     {
-      text: "C程序设计",
+      text: "程序设计",
       items: [
         {
           text: "简介",
-          link: "/columnBase/C/index.md",
+          link: "/columnBase/Programming/index.md",
         },
       ],
     },

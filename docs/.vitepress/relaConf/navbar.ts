@@ -66,8 +66,8 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/columnBase/DataStructure/",
       },
       {
-        text: "C程序设计",
-        link: "/columnBase/C/",
+        text: "程序设计",
+        link: "/columnBase/Programming/",
       },
     ],
   },
