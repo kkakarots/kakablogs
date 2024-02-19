@@ -30,4 +30,8 @@ export default defineConfig({
       provider: "local",
     },
   },
+  // markdown扩展
+  markdown: {
+    math: true
+  }
 });

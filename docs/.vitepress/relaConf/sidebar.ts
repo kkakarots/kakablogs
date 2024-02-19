@@ -168,7 +168,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnBase/DataStructure/001.md",
         },
         {
-          text: "第二章",
+          text: "线性表",
           link: "/columnBase/DataStructure/002.md",
         },
       ],
