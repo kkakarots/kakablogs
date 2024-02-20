@@ -69,6 +69,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "07.在OpenGL中写一个着色器",
           link: "/columnGraphics/OpenGL/006.md",
         },
+        {
+          text: "08.处理着色器",
+          link: "/columnGraphics/OpenGL/008.md",
+        },
       ],
     },
   ],
