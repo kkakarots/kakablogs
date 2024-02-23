@@ -144,6 +144,56 @@ export const sidebar: DefaultTheme.Sidebar = {
   ],
 
   /**
+   * Web3D
+   * ├─ cesium
+   * └─ three.js
+   */
+  "/columnWeb3D/Cesium/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "cesium简介",
+          link: "/columnWeb3D/Cesium/index.md",
+        },
+      ],
+    },
+    {
+      text: "记录",
+      items: [
+        {
+          text: "大数据量3dtiles模型构件的显隐",
+          link: "/columnWeb3D/Cesium/001.md",
+        },
+        {
+          text: "根据已有数据计算相机参数",
+          link: "/columnWeb3D/Cesium/002.md",
+        },
+      ],
+    },
+  ],
+  "/columnWeb3D/Threejs/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "three.js简介",
+          link: "/columnWeb3D/Threejs/index.md",
+        },
+      ],
+    },
+    {
+      text: "记录",
+      items: [
+        {
+          text: "TODO",
+          link: "",
+        },
+      ],
+    },
+  ],
+
+  /**
    * 编程语言
    * ├─ C++
    * ├─ Java

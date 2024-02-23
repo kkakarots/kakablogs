@@ -30,6 +30,19 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
+    text: "Web3D",
+    items: [
+      {
+        text: "cesium",
+        link: "/columnWeb3D/Cesium/",
+      },
+      {
+        text: "three.js",
+        link: "/columnWeb3D/Threejs/",
+      },
+    ],
+  },
+  {
     text: "编程语言",
     items: [
       {
