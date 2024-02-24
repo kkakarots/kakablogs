@@ -169,6 +169,14 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "根据已有数据计算相机参数",
           link: "/columnWeb3D/Cesium/002.md",
         },
+        {
+          text: "坐标转换库",
+          link: "/columnWeb3D/Cesium/003.md",
+        },
+        {
+          text: "处理WMS请求",
+          link: "/columnWeb3D/Cesium/004.md",
+        },
       ],
     },
   ],
