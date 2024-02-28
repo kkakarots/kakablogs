@@ -18,8 +18,8 @@ hero:
       text: Web3D示例
       link: /columnGraphics/WebGPU/
     - theme: alt
-      text: Github
-      link: https://github.com/
+      text: 学习路线
+      link: https://roadmap.sh/
 
 features:
   - icon: 🛠️
