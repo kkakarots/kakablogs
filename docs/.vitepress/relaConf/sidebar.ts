@@ -73,6 +73,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "08.处理着色器",
           link: "/columnGraphics/OpenGL/008.md",
         },
+        {
+          text: "09.索引缓冲区",
+          link: "/columnGraphics/OpenGL/009.md",
+        },
       ],
     },
   ],
