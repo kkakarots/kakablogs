@@ -6,4 +6,4 @@
 
 //Todo
 
-使用WebGL实现3d文字，
+使用WebGL实现3d文字，并集成到cesium场景中
