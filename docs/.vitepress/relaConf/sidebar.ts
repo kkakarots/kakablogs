@@ -14,17 +14,17 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "简介",
       items: [
         {
-          text: "图形学简介",
-          link: "",
+          text: "课程简介",
+          link: "/columnGraphics/Graphics/index.md",
         },
       ],
     },
     // Second part
     {
-      text: "第一部分",
+      text: "内容",
       items: [
         {
-          text: "线代基础",
+          text: "01.第一节课",
           link: "",
         },
       ],
@@ -180,6 +180,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "处理WMS请求",
           link: "/columnWeb3D/Cesium/004.md",
+        },
+        {
+          text: "实时轨迹",
+          link: "/columnWeb3D/Cesium/005.md",
         },
       ],
     },

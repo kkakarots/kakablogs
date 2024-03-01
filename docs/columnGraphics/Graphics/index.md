@@ -1,7 +1,7 @@
-# 简介
+# GAMES101简介
 
 ::: tip 关于
-学习`GAMES系列课程`的笔记
+学习[GAMES101: 现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)的笔记
 
 目前还没想好怎么记
 
