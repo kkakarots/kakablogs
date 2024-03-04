@@ -189,6 +189,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "实时轨迹",
           link: "/columnWeb3D/Cesium/005.md",
         },
+        {
+          text: "3d文字",
+          link: "/columnWeb3D/Cesium/006.md",
+        },
       ],
     },
   ],
