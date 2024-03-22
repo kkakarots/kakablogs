@@ -280,4 +280,52 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─
    * └─
    */
+   "/columnFront/Vue3/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "Vue3简介",
+          link: "/columnFront/Vue3/index.md",
+        },
+      ],
+    },
+    {
+      text: "记录",
+      items: [
+        {
+          text: "TODO",
+          link: "",
+        },
+      ],
+    },
+  ],
+
+  /**
+   * 项目
+   * ├─ 设计软件
+   * ├─
+   * ├─
+   * └─
+   */
+   "/columnProject/DesignSW/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "设计软件",
+          link: "/columnProject/DesignSW/index.md",
+        },
+      ],
+    },
+    {
+      text: "具体",
+      items: [
+        {
+          text: "TODO",
+          link: "",
+        },
+      ],
+    },
+  ],
 };

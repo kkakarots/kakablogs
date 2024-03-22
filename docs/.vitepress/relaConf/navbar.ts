@@ -107,6 +107,15 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
+    text: "项目",
+    items: [
+      {
+        text: "设计软件",
+        link: "/columnProject/DesignSW/",
+      },
+    ],
+  },
+  {
     text: "关于我",
     items: [
       {
