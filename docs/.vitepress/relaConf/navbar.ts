@@ -101,6 +101,10 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "前端",
     items: [
       {
+        text: "通用",
+        link: "/columnFront/Com/",
+      },
+      {
         text: "Vue3",
         link: "/columnFront/Vue3/",
       },

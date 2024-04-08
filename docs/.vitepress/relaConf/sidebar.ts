@@ -275,11 +275,31 @@ export const sidebar: DefaultTheme.Sidebar = {
 
   /**
    * 前端
+   * ├─ 通用
    * ├─ Vue3
-   * ├─
    * ├─
    * └─
    */
+  "/columnFront/Com/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "简介",
+          link: "/columnFront/Com/index.md",
+        },
+      ],
+    },
+    {
+      text: "记录",
+      items: [
+        {
+          text: "TODO",
+          link: "",
+        },
+      ],
+    },
+  ],
    "/columnFront/Vue3/": [
     {
       text: "简介",
