@@ -16,7 +16,7 @@
   
 <script lang="js" setup>
 import * as THREE from 'three';
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { defineComponent, onMounted, ref, reactive, toRaw } from "vue";
 const list = ['地址：陕西省西安市', '邮箱：kakarots@foxmail.com', 'QQ：35688351', '微信：nokkbb'];
 /*** 场景***/
@@ -64,14 +64,14 @@ const gridHelper = new THREE.GridHelper(100, 10, "#B5B5B5", "#B5B5B5");
 scene.add(gridHelper);
 
 // 轨道控制器
-let orbitControls = new OrbitControls(camera, renderer.domElement);
-orbitControls.mouseButtons = {
-    // LEFT: THREE.MOUSE.ROTATE, //
-    LEFT: null, // 左键无功能
-    MIDDLE: THREE.MOUSE.DOLLY, // 中键缩放
-    // RIGHT: THREE.MOUSE.PAN,
-    RIGHT: THREE.MOUSE.ROTATE, // 右键旋转
-};
+// let orbitControls = new OrbitControls(camera, renderer.domElement);
+// orbitControls.mouseButtons = {
+//     // LEFT: THREE.MOUSE.ROTATE, //
+//     LEFT: null, // 左键无功能
+//     MIDDLE: THREE.MOUSE.DOLLY, // 中键缩放
+//     // RIGHT: THREE.MOUSE.PAN,
+//     RIGHT: THREE.MOUSE.ROTATE, // 右键旋转
+// };
 
 // 天空盒 ***********************************************************************************************
 

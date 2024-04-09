@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { nav, sidebar } from "./relaConf";
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
@@ -34,5 +35,10 @@ export default defineConfig({
   markdown: {
     math: true
   },
-  
+  vite:{
+    // plugins: [
+    //   // 其他插件
+    //   require('vite-plugin-md')()
+    // ]
+  }
 });
