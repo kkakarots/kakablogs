@@ -36,7 +36,9 @@ features:
 <!-- 自定义组件 -->
 <script setup>
   import home from './components/home.vue'
+  import pointCloud from './components/pointCloud.vue'
 </script>
 
 
 <home />
+<pointCloud />
