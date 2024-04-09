@@ -5,6 +5,7 @@
     <div id="threejs" class="threejs-container">
         <div class="legend_box">
             <div class="infomations">
+                <p style="font-weight: bolder;font-size: smaller;">Threejs</p>
                 <p style="font-weight: bolder;">天空盒</p>
             </div>
         </div>
@@ -170,7 +171,7 @@ onMounted(async () => {
 
     /* background-color: burlywood; */
     .legend_box {
-        width: 10%;
+        width: 12%;
         position: absolute;
         left: 20px;
         top: 20px;
