@@ -101,7 +101,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "前端",
     items: [
       {
-        text: "通用",
+        text: "Web开发",
         link: "/columnFront/Com/",
       },
       {

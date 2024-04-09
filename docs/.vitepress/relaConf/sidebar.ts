@@ -282,20 +282,15 @@ export const sidebar: DefaultTheme.Sidebar = {
    */
   "/columnFront/Com/": [
     {
-      text: "简介",
+      text: "Web开发",
       items: [
         {
-          text: "简介",
+          text: "通用",
           link: "/columnFront/Com/index.md",
         },
-      ],
-    },
-    {
-      text: "记录",
-      items: [
         {
-          text: "TODO",
-          link: "",
+          text: "Http",
+          link: "/columnFront/Com/http.md",
         },
       ],
     },
