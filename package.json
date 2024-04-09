@@ -7,5 +7,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "less": "^4.2.0",
+    "three": "^0.163.0"
   }
 }

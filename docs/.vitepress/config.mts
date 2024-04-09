@@ -33,5 +33,6 @@ export default defineConfig({
   // markdown扩展
   markdown: {
     math: true
-  }
+  },
+  
 });
