@@ -119,21 +119,13 @@ export const nav: DefaultTheme.NavItem[] = [
       },
     ],
   },
-  {
-    text: "关于我",
-    items: [
-      {
-        text: "Github",
-        link: "https://github.com/",
-      },
-      {
-        text: "Gitee",
-        link: "https://gitee.com/",
-      },
-      {
-        text: "哔哩哔哩",
-        link: "https://www.bilibili.com/",
-      },
-    ],
-  },
+  // {
+  //   text: "关于我",
+  //   items: [
+  //     {
+  //       text: "Github",
+  //       link: "https://github.com/",
+  //     },
+  //   ],
+  // },
 ];
