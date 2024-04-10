@@ -1,2 +1,2 @@
 
-![An image](./images/wechat.JPG)
+![An image](./images/wechat.png)
