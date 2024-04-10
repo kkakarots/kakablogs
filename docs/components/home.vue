@@ -14,11 +14,11 @@
         </div> -->
     </div>
 </template>
-  
+
 <script lang="js" setup>
 import * as THREE from 'three';
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { defineComponent, onMounted, ref, reactive, toRaw } from "vue";
+import { defineComponent, onMounted, onUnmounted, ref, reactive, toRaw } from "vue";
 const list = ['地址：陕西省西安市', '邮箱：kakarots@foxmail.com', 'QQ：35688351', '微信：nokkbb'];
 /*** 场景***/
 
@@ -138,9 +138,14 @@ onMounted(async () => {
     animate();
     changeIndex();
 });
+onUnmounted(() => {
+    // 移除renderer.domElement
+    const domElement = renderer.domElement;
+    domElement.parentNode.removeChild(domElement);
+})
 
 </script>
-  
+
 <style scoped lang="less">
 .home-wrapper {
     display: flex;
@@ -210,4 +215,3 @@ onMounted(async () => {
     text-align: left;
 }
 </style>
-  
