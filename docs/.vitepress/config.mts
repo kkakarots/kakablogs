@@ -33,10 +33,11 @@ export default defineConfig({
       level: [2, 6],
       label: "目录",
     },
-    // footer: {
-    //   message: '欲买桂花同载酒，终不似少年游',
-    //   copyright: 'Copyright © 2019-present Evan You'
-    // },
+    //页脚
+    footer: {
+      message: 'Kaka / 陕西 · 西安',
+      copyright: '邮箱 : kakarots@foxmail.com'
+    },
     // 本地搜索
     search: {
       provider: "local",
