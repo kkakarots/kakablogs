@@ -9,9 +9,9 @@
                 <p style="font-weight: bolder;">天空盒</p>
             </div>
         </div>
-        <!-- <div class="button_">
-            <el-button type="primary" round @click="changeIndex">点击切换</el-button>
-        </div> -->
+        <div class="button_">
+            <button type="primary" @click="changeIndex">切换</button>
+        </div>
     </div>
 </template>
 
@@ -194,10 +194,11 @@ onUnmounted(() => {
     left: 90%;
     top: 20px;
     z-index: 10001;
-    background: rgba(1, 183, 255, 0.0);
-    border-radius: 15px;
+    background: rgba(149, 155, 157, 0.5);
+    // border-radius: 2px;
     font-size: 15px;
     color: rgb(255, 255, 255);
+    text-align: center; /* 将文本水平居中 */
 }
 
 .button_in {
