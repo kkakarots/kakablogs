@@ -164,7 +164,7 @@ onMounted(async () => {
 .threejs-container {
     width: 500px;
     /* height: 735px; */
-    height: 300px;
+    height: 200px;
     display: flex;
     margin: 40px auto;
     position: relative;

@@ -35,10 +35,12 @@ features:
 
 <!-- 自定义组件 -->
 <script setup>
-  import home from './components/home.vue'
-  import pointCloud from './components/pointCloud.vue'
+  // import home from './components/home.vue'
+  // import pointCloud from './components/pointCloud.vue'
+  import glView from './components/index.vue'
 </script>
 
 
-<home />
-<pointCloud />
+<!-- <home />
+<pointCloud /> -->
+<glView />
