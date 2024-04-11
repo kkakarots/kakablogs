@@ -224,6 +224,17 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─ JavaScript
    * └─ TypeScript
    */
+  "/columnLan/JavaScript/": [
+    {
+      text: "JavaScript",
+      items: [
+        {
+          text: "Useful",
+          link: "/columnLan/JavaScript/index.md",
+        },
+      ],
+    },
+  ],
 
   /**
    * 计算机基础
@@ -295,7 +306,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
-   "/columnFront/Vue3/": [
+  "/columnFront/Vue3/": [
     {
       text: "简介",
       items: [
@@ -323,7 +334,7 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─
    * └─
    */
-   "/columnProject/DesignSW/": [
+  "/columnProject/DesignSW/": [
     {
       text: "简介",
       items: [
