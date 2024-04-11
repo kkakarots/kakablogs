@@ -1,2 +1,2 @@
 
-![An image](./images/wechat.png)
+<img src="./images/wechat.png" width="40%">
