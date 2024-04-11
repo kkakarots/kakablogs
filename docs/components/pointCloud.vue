@@ -5,7 +5,6 @@
     <div id="threejs-1" class="threejs-container">
         <div class="legend_box">
             <div class="infomations">
-                <p style="font-weight: bolder;font-size: smaller;">Threejs</p>
                 <p style="font-weight: bolder;">点 云</p>
             </div>
         </div>
