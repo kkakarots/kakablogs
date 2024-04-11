@@ -4,6 +4,4 @@
 
 [MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Tutorial)
 
-//Todo
-
-使用WebGL实现3d文字，并集成到cesium场景中
+[学习地址](https://webglfundamentals.org/webgl/lessons/zh_cn/)

@@ -97,11 +97,23 @@ export const sidebar: DefaultTheme.Sidebar = {
     },
     // Second part
     {
-      text: "第一部分",
+      text: "基础概念",
       items: [
         {
-          text: "",
-          link: "",
+          text: "基础概念",
+          link: "/columnGraphics/WebGL/基础概念/基础概念.md",
+        },
+        {
+          text: "工作原理",
+          link: "/columnGraphics/WebGL/基础概念/工作原理.md",
+        },
+        {
+          text: "着色器和GLSL",
+          link: "/columnGraphics/WebGL/基础概念/着色器和GLSL.md",
+        },
+        {
+          text: "State Diagram",
+          link: "/columnGraphics/WebGL/基础概念/StateDiagram.md",
         },
       ],
     },
