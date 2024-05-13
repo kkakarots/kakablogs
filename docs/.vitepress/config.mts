@@ -5,7 +5,7 @@ import { nav, sidebar } from "./relaConf";
 export default defineConfig({
   head: [
     // 添加图标
-    ["link", { rel: "icon", href: "/Imgs/favicon-1.svg" }],
+    ["link", { rel: "icon", href: "/Imgs/a.svg" }],
   ],
   title: "Kaka Blogs",
   description: "记录",
