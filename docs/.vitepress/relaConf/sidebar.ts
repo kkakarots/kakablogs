@@ -244,6 +244,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "Useful",
           link: "/columnLan/JavaScript/index.md",
         },
+        {
+          text: "面试题",
+          link: "/columnLan/JavaScript/001.md",
+        },
       ],
     },
   ],
