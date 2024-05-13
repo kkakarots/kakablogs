@@ -1,4 +1,4 @@
-![Image](/docs/public/Imgs/readme-logo.png)
+![Image](/docs/public/Imgs/logo-light.svg)
 
 #### 介绍
 * 技能树
