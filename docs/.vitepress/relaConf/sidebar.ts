@@ -17,6 +17,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "课程简介",
           link: "/columnGraphics/Graphics/index.md",
         },
+        {
+          text: "数学基础",
+          link: "/columnGraphics/Graphics/mathbase.md",
+        },
       ],
     },
     // Second part
@@ -25,7 +29,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         {
           text: "01.第一节课",
-          link: "",
+          link: "/columnGraphics/Graphics/001.md",
         },
       ],
     },
