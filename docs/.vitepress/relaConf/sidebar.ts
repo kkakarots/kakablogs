@@ -28,8 +28,12 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "内容",
       items: [
         {
-          text: "01.第一节课",
+          text: "前言&基础",
           link: "/columnGraphics/Graphics/001.md",
+        },
+        {
+          text: "变换",
+          link: "/columnGraphics/Graphics/002.md",
         },
       ],
     },
