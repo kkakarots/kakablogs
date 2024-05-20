@@ -1,6 +1,7 @@
 # Http概述
 
-![An image](./images/http-1.png)
+<img src="./images/http-1.png" style="margin: 0 auto;">
+
 
 # Http消息
 
@@ -13,4 +14,5 @@ HTTP 请求和响应具有相似的结构，由以下部分组成：
 
 起始行和 HTTP 消息中的 HTTP 头统称为请求头，而其有效负载被称为消息主体。
 
-![An image](./images/http-2.png)
+<img src="./images/http-2.png" style="margin: 0 auto;">
+

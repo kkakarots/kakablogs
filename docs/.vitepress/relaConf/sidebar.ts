@@ -217,7 +217,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "简介",
       items: [
         {
-          text: "three.js简介",
+          text: "简介",
           link: "/columnWeb3D/Threejs/index.md",
         },
       ],
@@ -226,8 +226,8 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "记录",
       items: [
         {
-          text: "TODO",
-          link: "",
+          text: "参数建模",
+          link: "/columnWeb3D/Threejs/001.md",
         },
       ],
     },
