@@ -28,8 +28,12 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnGraphics/Graphics/001.md",
         },
         {
-          text: "变换",
+          text: "变换(Transformation)",
           link: "/columnGraphics/Graphics/002.md",
+        },
+        {
+          text: "Transformation Cont",
+          link: "/columnGraphics/Graphics/003.md",
         },
       ],
     },
