@@ -32,8 +32,16 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnGraphics/Graphics/002.md",
         },
         {
-          text: "Transformation Cont",
+          text: "变换(Transformation Cont)",
           link: "/columnGraphics/Graphics/003.md",
+        },
+        {
+          text: "光栅化(Rasterization 1)",
+          link: "/columnGraphics/Graphics/004.md",
+        },
+        {
+          text: "光栅化(Rasterization 2)",
+          link: "/columnGraphics/Graphics/005.md",
         },
       ],
     },
