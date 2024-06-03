@@ -8,7 +8,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "图形学",
     items: [
       {
-        text: "图形学基础",
+        text: "图形学基础(GAMES101)",
         link: "/columnGraphics/Graphics/",
       },
       {
