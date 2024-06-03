@@ -24,7 +24,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "内容",
       items: [
         {
-          text: "前言&基础",
+          text: "基础",
           link: "/columnGraphics/Graphics/001.md",
         },
         {
@@ -36,11 +36,11 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnGraphics/Graphics/003.md",
         },
         {
-          text: "光栅化(Rasterization 1)",
+          text: "光栅化(Rasterization)",
           link: "/columnGraphics/Graphics/004.md",
         },
         {
-          text: "光栅化(Rasterization 2)",
+          text: "光栅化(Rasterization Cont)",
           link: "/columnGraphics/Graphics/005.md",
         },
       ],

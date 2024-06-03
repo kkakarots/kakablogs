@@ -7,6 +7,8 @@
 :::
 
 ::: tip 课程主要内容
+<img src="./images/简介.png" style="margin: 0 auto;">
+
 
 光栅化
 
