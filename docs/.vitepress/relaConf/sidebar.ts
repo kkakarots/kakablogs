@@ -252,6 +252,21 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─ JavaScript
    * └─ TypeScript
    */
+   "/columnLan/C++/": [
+    {
+      text: "C++",
+      items: [
+        {
+          text: "简介",
+          link: "/columnLan/C++/index.md",
+        },
+        {
+          text: "TODO",
+          link: "/columnLan/C++/001.md",
+        },
+      ],
+    },
+  ],
   "/columnLan/JavaScript/": [
     {
       text: "JavaScript",
