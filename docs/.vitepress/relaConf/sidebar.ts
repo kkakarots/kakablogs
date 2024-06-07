@@ -43,6 +43,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "光栅化(Rasterization Cont)",
           link: "/columnGraphics/Graphics/005.md",
         },
+        {
+          text: "着色(Shading 1)",
+          link: "/columnGraphics/Graphics/shading1.md",
+        },
       ],
     },
   ],
