@@ -336,7 +336,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/index.md",
         },
         {
-          text: "比较少用",
+          text: "少关注的点",
           link: "/columnLan/JavaScript/001.md",
         },
         {
