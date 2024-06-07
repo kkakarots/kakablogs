@@ -4,6 +4,10 @@
 学习[GAMES101: 现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)的笔记
 
 看完就忘，随便记记 🤡
+
+进度: 光栅化.结束 
+
+日期: 2024/6/6
 :::
 
 ::: tip 课程主要内容
