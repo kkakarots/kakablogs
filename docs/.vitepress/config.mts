@@ -35,8 +35,8 @@ export default defineConfig({
     },
     //页脚
     footer: {
-      message: 'Kaka / 陕西 · 西安',
-      copyright: '邮箱 : kakarots@foxmail.com'
+      message: 'Kaka',
+      copyright: 'kakarots@foxmail.com'
     },
     // 本地搜索
     search: {

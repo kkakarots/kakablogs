@@ -47,6 +47,62 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "着色(Shading 1)",
           link: "/columnGraphics/Graphics/shading1.md",
         },
+        {
+          text: "着色(Shading 2)",
+          link: "/columnGraphics/Graphics/shading2.md",
+        },
+        {
+          text: "着色(Shading 3)",
+          link: "/columnGraphics/Graphics/shading3.md",
+        },
+        {
+          text: "几何(Geometry 1)",
+          link: "/columnGraphics/Graphics/geometry1.md",
+        },
+        {
+          text: "几何(Geometry 2)",
+          link: "/columnGraphics/Graphics/geometry2.md",
+        },
+        {
+          text: "光线追踪(Ray Tracing 1)",
+          link: "/columnGraphics/Graphics/raytracing1.md",
+        },
+        {
+          text: "光线追踪(Ray Tracing 2)",
+          link: "/columnGraphics/Graphics/raytracing2.md",
+        },
+        {
+          text: "光线追踪(Ray Tracing 3)",
+          link: "/columnGraphics/Graphics/raytracing3.md",
+        },
+        {
+          text: "光线追踪(Ray Tracing 4)",
+          link: "/columnGraphics/Graphics/raytracing4.md",
+        },
+        {
+          text: "材质及外观(Materials and Appearances)",
+          link: "/columnGraphics/Graphics/manda.md",
+        },
+        {
+          text: "渲染中的高级主题(Advanced topics in rendering)",
+          link: "/columnGraphics/Graphics/advancedtopics.md",
+        },
+        {
+          text: "摄像机、镜头和光场(Cameras, Lenses and Light Fields)",
+          link: "/columnGraphics/Graphics/cllf.md",
+        },
+        {
+          text: "色彩与感知(Color and Perception)",
+          link: "/columnGraphics/Graphics/cap.md",
+        },
+        {
+          text: "动画(Animation)",
+          link: "/columnGraphics/Graphics/animation.md",
+        },
+        {
+          text: "动画(Animation Cont)",
+          link: "/columnGraphics/Graphics/animationc.md",
+        },
       ],
     },
   ],
@@ -111,7 +167,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         {
           text: "WebGL简介",
-          link: "",
+          link: "/columnGraphics/WebGL/index.md",
         },
       ],
     },

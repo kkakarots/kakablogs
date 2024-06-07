@@ -15,8 +15,8 @@ hero:
       text: 快速开始
       link: /columnGraphics/Graphics/
     - theme: alt
-      text: Web3D示例
-      link: /columnGraphics/WebGPU/
+      text: 图形学入门
+      link: /columnGraphics/Graphics/index.md
     - theme: alt
       text: 学习路线
       link: https://roadmap.sh/

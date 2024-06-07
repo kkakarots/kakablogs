@@ -4,6 +4,9 @@
     --vp-c-brand-2: #747bff;
   } */
 .VPDoc .container {
-    margin: 0;
+  margin: 0;
 }
 
+:root {
+  --vp-layout-max-width: 1920px
+}
