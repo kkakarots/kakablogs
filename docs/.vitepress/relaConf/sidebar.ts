@@ -336,8 +336,12 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/index.md",
         },
         {
-          text: "面试题",
+          text: "比较少用",
           link: "/columnLan/JavaScript/001.md",
+        },
+        {
+          text: "正则表达式",
+          link: "/columnLan/JavaScript/正则表达式.md",
         },
       ],
     },
