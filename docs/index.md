@@ -12,11 +12,11 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 快速开始
+      text: 图形学入门
       link: /columnGraphics/Graphics/
     - theme: alt
-      text: 图形学入门
-      link: /columnGraphics/Graphics/index.md
+      text: OpenGL
+      link: /columnGraphics/OpenGL/
     - theme: alt
       text: 学习路线
       link: https://roadmap.sh/
