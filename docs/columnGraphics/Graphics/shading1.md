@@ -23,7 +23,6 @@ Perceptual Observations (感性的观察)
 <img src="./images/s2.png" style="margin: 2px auto;">
 :::
 
-### Shading is Local
 ::: info Shading is Local (阴影是局部的)
 Compute light reflected toward camera at a specific 
 shading point (计算在特定位置反射到相机的光 阴影点)
@@ -40,7 +39,7 @@ No shadows will be generated! (shading ≠ shadow) (没有阴影将生成!（ �
 <img src="./images/s4.png" style="margin: 2px auto;">
 :::
 
-### Diffuse Reflection
+#### Diffuse Reflection
 :::info Diffuse Reflection (漫反射)
 - Light is scattered uniformly in all directions (光在各个方向均匀地散射)
     - Surface color is the same for all viewing directions (表面颜色是相同的所有观看方向)
@@ -57,8 +56,6 @@ No shadows will be generated! (shading ≠ shadow) (没有阴影将生成!（ �
 
 :::
 
-
-### Lambertian (Diffuse) Shading
 ::: info Lambertian (Diffuse) Shading (兰伯特漫反射着色)
 Shading independent of view direction (着色独立于观察角度)
 <img src="./images/s8.png" style="margin: 2px auto;">
