@@ -6,7 +6,6 @@
 - Shading frequencies (着色频率)
 - Graphics pipeline (渲染管线)
 - Texture mapping (纹理映射)
-- Barycentric coordinates 
 
 :::
 
