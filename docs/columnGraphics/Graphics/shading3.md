@@ -70,7 +70,7 @@ Linearly interpolate values at vertices (在顶点处线性插值)
 
 :::
 
-### Texture Magnification (What if the texture is too small?) (纹理放大)
+### Texture Magnification (What if the texture is too small?)
 
 #### Easy Case
 
@@ -124,6 +124,8 @@ $f(x, y) = lerp(t, u_0, u_1)$
 
 **Bilinear interpolation usually gives pretty good results at reasonable costs (双线性插值通常以合理的成本给出相当好的结果)**
 :::
+
+### Texture Magnification (What if the texture is too large?)
 
 #### Hard Case
 
