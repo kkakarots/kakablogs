@@ -133,10 +133,107 @@ Point Sampling Textures — Problem (点采样纹理-问题)
 
 <img src="./images/点采样纹理1.png" style="margin: 2px auto; max-width: 80%;">
 
-Screen Pixel “Footprint” in Texture (纹理中的屏幕像素“足迹”)
+Screen Pixel "Footprint" in Texture (纹理中的屏幕像素"足迹")
 <img src="./images/点采样纹理2.png" style="margin: 2px auto; max-width: 80%;">
 
 Will Supersampling Do Antialiasing? (超采样会做抗锯齿吗?)
 <img src="./images/点采样纹理3.png" style="margin: 2px auto; max-width: 80%;">
+
+:::info Antialiasing — Supersampling?
+Will supersampling work? 
+- Yes, high quality, but costly 
+- When highly minified, many texels in pixel footprint 
+- Signal frequency too large in a pixel 
+- Need even higher sampling frequency 
+
+Let’s understand this problem in another way 
+- What if we don’t sample? 
+- Just need to get the average value within a range!
+
+**Point Query vs. (Avg.) Range Query**
+<img src="./images/点查询vs范围查询.png" style="margin: 2px auto; max-width: 80%;">
+
+**Different Pixels -> Different-Sized Footprints(不同像素->不同大小的足迹)**
+<img src="./images/不同处的像素的纹理.png" style="margin: 2px auto; max-width: 80%;">
+
+:::
+
+### Mipmap (Allowing (fast, approx., square) range queries)
+
+**"Mip" comes from the Latin "multum in parvo", meaning a multitude in a small space ("Mip"来自拉丁语"multum in parvo"，意思是一个小空间里的许多人)**
+
+<img src="./images/Mipmap1.png" style="margin: 2px auto; max-width: 80%;">
+
+<img src="./images/Mipmap2.png" style="margin: 2px auto; max-width: 80%;">
+
+"Mip hierarchy"
+
+level = D
+
+What is the storage overhead of a mipmap?
+
+:::info Computing Mipmap Level D (计算Mipmap级别D)
+<img src="./images/Mipmap3.png" style="margin: 2px auto; max-width: 80%;">
+
+Estimate texture footprint using texture coordinates of neighboring screen samples (使用相邻屏幕样本的纹理坐标估计纹理占用)
+
+<img src="./images/Mipmap4.png" style="margin: 2px auto; max-width: 80%;">
+<img src="./images/Mipmap5.png" style="margin: 2px auto; max-width: 80%;">
+
+$D = \log_2L$  
+
+$L = max \left(\sqrt{(\frac{du}{dx})^2 + (\frac{dv}{dx})^2}, \sqrt{(\frac{du}{dy})^2 + (\frac{dv}{dy})^2}\right)$
+
+**Visualization of Mipmap Level (Mipmap级别的可视化)**
+
+D rounded to nearest integer level
+<img src="./images/Mipmap6.png" style="margin: 2px auto; max-width: 80%;">
+
+:::
+
+:::info Trilinear Interpolation (三维插值)
+<img src="./images/Mipmap7.png" style="margin: 2px auto; max-width: 80%;">
+
+**Visualization of Mipmap Level**
+
+Trilinear filtering: visualization of continuous D
+<img src="./images/Mipmap8.png" style="margin: 2px auto; max-width: 80%;">
+:::
+
+:::info Mipmap Limitations
+<img src="./images/Mipmap9.png" style="margin: 2px auto; max-width: 80%;">
+过度模糊
+
+**Anisotropic Filtering (各向异性过滤：一种3D显示技术，通过对周围各个方向上的像素进行取样计算后映射到目标像素上，以提高图像的精度和逼真度。)**
+<img src="./images/AnisotropicFiltering.png" style="margin: 2px auto; max-width: 80%;">
+
+Irregular Pixel Footprint in Texture (纹理中的不规则像素足迹)
+
+<img src="./images/Mipmap10.png" style="margin: 2px auto; max-width: 80%;">
+
+
+:::
+
+:::info Anisotropic Filtering 
+Ripmaps and summed area tables 
+- Can look up axis-aligned rectangular zones
+- Diagonal footprints still a problem
+
+<img src="./images/Mipmap11.png" style="margin: 2px auto; max-width: 40%;">
+
+EWA filtering 
+- Use multiple lookups 
+- Weighted average
+- Mipmap hierarchy still helps
+- Can handle irregular footprints
+
+<img src="./images/Mipmap12.png" style="margin: 2px auto; max-width: 40%;">
+
+:::
+
+## Applications of textures (应用)
+
+
+
 
 
