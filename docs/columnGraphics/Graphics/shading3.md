@@ -233,7 +233,17 @@ EWA filtering
 
 ## Applications of textures (应用)
 
+<div style="display:flex">
+    <img src="./images/G01.png" style="margin: 2px auto; max-width: 30%;">
+    <img src="./images/G02.png" style="margin: 2px auto; max-width: 30%;">
+    <img src="./images/G03.png" style="margin: 2px auto; max-width: 30%;">
+</div>
 
+<div style="display:flex">
+    <img src="./images/G04.png" style="margin: 2px auto; max-width: 30%;">
+    <img src="./images/G05.png" style="margin: 2px auto; max-width: 30%;">
+    <img src="./images/G06.png" style="margin: 2px auto; max-width: 30%;">
+</div>
 
 
 
