@@ -336,6 +336,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/index.md",
         },
         {
+          text: "数组",
+          link: "/columnLan/JavaScript/数组.md",
+        },
+        {
           text: "少关注的点",
           link: "/columnLan/JavaScript/001.md",
         },
