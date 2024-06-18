@@ -246,4 +246,86 @@ EWA filtering
 </div>
 
 
+In modern GPUs, texture = memory + range query (filtering) (在现代gpu中，纹理=内存+范围查询(过滤))
+
+- General method to bring data to fragment calculations (将数据带入片段计算的一般方法)
+
+Many applications
+
+- Environment lighting 
+- Store microgeometry 
+- Procedural textures 
+- Solid modeling 
+- Volume rendering 
+- ...
+
+### Environment Map (环境映射)
+<img src="./images/G07.png" style="margin: 2px auto; max-width: 80%;">
+
+#### Environmental Lighting
+
+<img src="./images/G08.png" style="margin: 2px auto; max-width: 80%;">
+
+Environment map (left) used to render realistic lighting (环境图(左)用于渲染逼真的照明)
+
+#### Spherical Environment Map (球面环境映射)
+<img src="./images/G09.png" style="margin: 2px auto; max-width: 80%;">
+
+#### Spherical Map — Problem (问题)
+<img src="./images/G10.png" style="margin: 2px auto; max-width: 80%;">
+Prone to distortion (top and bottom parts)! (容易变形(上下部分)!)
+
+#### Cube Map (立方体映射)
+为了解决球面扭曲的问题，使用立方体来进行环境光照的纹理映射。
+<img src="./images/G11.png" style="margin: 2px auto; max-width: 80%;">
+A vector maps to cube point along that direction. (一个矢量沿着这个方向映射到一个立方体点。)
+
+The cube is textured with 6 square texture maps.(立方体有6个正方形纹理贴图。)
+<img src="./images/G12.png" style="margin: 2px auto; max-width: 80%;">
+
+### Textures can affect shading! (纹理可以影响阴影!)
+
+- Textures doesn't have to only represent colors
+    - What if it stores the height / normal? (如果它存储高度/法线呢?)
+    - Bump / normal mapping (凹凸/法线映射)
+    - **Fake** the detailed geometry (假的 详细的几何结构)
+<img src="./images/G13.png" style="margin: 2px auto; max-width: 80%;">
+
+
+#### Bump/Normal Mapping (凹凸/法线贴图)
+Adding surface detail without adding more triangles (添加表面细节而不添加更多三角形)
+- Perturb surface normal per pixel (for shading computations only) (每像素的扰动表面法线 (只适用于阴影计算))
+- "Height shift" per texel defined by a texture (每个纹理定义的"高度移动")
+- How to modify normal vector? (如何修改法向量?)
+<img src="./images/G14.png" style="margin: 2px auto; max-width: 80%;">
+
+How to perturb the normal (in flatland) (计算法线贴图(一维))
+- Original surface normal n(p) = (0, 1) 
+- Derivative at p is dp = c * [h(p+1) - h(p)] 
+- Perturbed normal is then n(p) = (-dp, 1).normalized()
+<img src="./images/G15.png" style="margin: 2px auto; max-width: 80%;">
+
+How to perturb the normal (in 3D)
+- Original surface normal n(p) = (0, 0, 1) 
+- Derivatives at p are 
+    - dp/du = c1 * [h(u+1) - h(u)] 
+    - dp/dv = c2 * [h(v+1) - h(v)]
+- Perturbed normal is n = (-dp/du, -dp/dv, 1).normalized()
+- Note that this is in local coordinate!
+    More will be elaborated in FAQ of HW3
+
+#### Displacement mapping — a more advanced approach (位移映射 -一种更高级的方法)
+- Uses the same texture as in bumping mapping (使用与碰撞映射相同的纹理)
+- Actually moves the vertices (实际上 移动顶点)
+<img src="./images/G16.png" style="margin: 2px auto; max-width: 80%;">
+
+### 三维纹理
+#### 3D Procedural Noise + Solid Modeling (3D程序噪声+实体建模)
+<img src="./images/G17.png" style="margin: 2px auto; max-width: 80%;">
+
+#### Provide Precomputed Shading (提供预先计算的阴影)
+<img src="./images/G18.png" style="margin: 2px auto; max-width: 80%;">
+
+#### 3D Textures and Volume Rendering (3D纹理和体渲染)
+<img src="./images/G19.png" style="margin: 2px auto; max-width: 80%;">
 
