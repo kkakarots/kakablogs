@@ -304,6 +304,17 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/columnWeb3D/Universal/": [
+    {
+      text: "Universal",
+      items: [
+        {
+          text: "常见问题",
+          link: "/columnWeb3D/Universal/index.md",
+        },
+      ],
+    },
+  ],
 
   /**
    * 编程语言

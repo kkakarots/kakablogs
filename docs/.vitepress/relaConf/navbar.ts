@@ -40,6 +40,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "three.js",
         link: "/columnWeb3D/Threejs/",
       },
+      {
+        text: "常见问题",
+        link: "/columnWeb3D/Universal/",
+      },
     ],
   },
   {
