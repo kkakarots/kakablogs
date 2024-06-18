@@ -302,7 +302,7 @@ Adding surface detail without adding more triangles (添加表面细节而不添
 How to perturb the normal (in flatland) (计算法线贴图(一维))
 - Original surface normal n(p) = (0, 1) 
 - Derivative at p is dp = c * [h(p+1) - h(p)] 
-- Perturbed normal is then n(p) = (-dp, 1).normalized()
+- Perturbed normal is then n(p) = (-dp, 1).normalized() (切线旋转90°得到)
 <img src="./images/G15.png" style="margin: 2px auto; max-width: 80%;">
 
 How to perturb the normal (in 3D)
@@ -315,8 +315,10 @@ How to perturb the normal (in 3D)
     More will be elaborated in FAQ of HW3
 
 #### Displacement mapping — a more advanced approach (位移映射 -一种更高级的方法)
-- Uses the same texture as in bumping mapping (使用与碰撞映射相同的纹理)
-- Actually moves the vertices (实际上 移动顶点)
+- Uses the same texture as in bumping mapping (使用与凹凸贴图相同的纹理)
+- Actually moves the vertices (实际上移动了顶点位置)
+- 代价: 本身要求模型足够细致
+    - DirectX 提供了曲面细分来实现
 <img src="./images/G16.png" style="margin: 2px auto; max-width: 80%;">
 
 ### 三维纹理
