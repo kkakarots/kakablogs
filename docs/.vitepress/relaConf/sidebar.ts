@@ -64,6 +64,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnGraphics/Graphics/geometry2.md",
         },
         {
+          text: "几何(Geometry 3)",
+          link: "/columnGraphics/Graphics/geometry3.md",
+        },
+        {
           text: "光线追踪(Ray Tracing 1)",
           link: "/columnGraphics/Graphics/raytracing1.md",
         },
