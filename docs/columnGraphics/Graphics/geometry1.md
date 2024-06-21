@@ -108,4 +108,46 @@ Pros:
 Cons:
 - difficult to model complex shapes (难以模拟复杂的形状)
 
-## (显式) Explicit
+## (显式) Explicit Representations in Computer Graphics
+:::info Many Explicit Representations in Graphics
+
+<img src="./images/GEX01.png" style="margin: 2px auto; max-width: 80%;">
+
+:::
+
+### Point Cloud (Explicit) (点云)
+Easiest representation: list of points (x,y,z)
+
+Easily represent any kind of geometry 
+
+Useful for LARGE datasets (>>1 point/pixel)
+
+Often converted into polygon mesh
+
+Difficult to draw in undersampled regions 
+
+<img src="./images/GEX02.png" style="margin: 2px auto; max-width: 80%;">
+
+### Polygon Mesh (Explicit) (多边形网格)
+Store vertices & polygons (often triangles or quads) (存储顶点和多边形(通常是三角形或四边形))
+
+Easier to do processing / simulation, adaptive sampling (更容易做处理/模拟，自适应采样)
+
+More complicated data structures (更复杂的数据结构)
+
+Perhaps most common representation in graphics(也许在图形中应用最广泛)
+
+<img src="./images/GEX03.png" style="margin: 2px auto; max-width: 80%;">
+
+### The Wavefront Object File (.obj) Format (波前对象文件(.obj)格式)
+
+Commonly used in Graphics research 
+
+Just a text file that specifies vertices, normals, texture coordinates and their connectivities (只是一个文本文件，指定顶点，法线，纹理坐标和它们的连接)
+
+下图定义了一个立方体，有八个顶点（v）,六个面（vn）多个纹理坐标（vt）表示，然后使用f表示他们之间的关系(f(v/vt/vn))
+
+<div style="display:flex">
+    <img src="./images/GEX04.png" style="margin: 2px auto; max-width: 45%;">
+    <img src="./images/GEX05.png" style="margin: 2px auto; max-width: 45%;">
+</div>

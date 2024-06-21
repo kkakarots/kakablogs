@@ -402,6 +402,34 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "简介",
           link: "/columnBase/Programming/index.md",
         },
+        {
+          text: "数组",
+          link: "/columnBase/Programming/数组.md",
+        },
+        {
+          text: "哈希表",
+          link: "/columnBase/Programming/哈希表.md",
+        },
+        {
+          text: "排序",
+          link: "/columnBase/Programming/排序.md",
+        },
+        {
+          text: "查找",
+          link: "/columnBase/Programming/查找.md",
+        },
+        {
+          text: "树",
+          link: "/columnBase/Programming/查找.md",
+        },
+        {
+          text: "查找",
+          link: "/columnBase/Programming/查找.md",
+        },
+        {
+          text: "动态规划",
+          link: "/columnBase/Programming/动态规划.md",
+        },
       ],
     },
   ],
