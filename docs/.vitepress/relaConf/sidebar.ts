@@ -383,11 +383,11 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnBase/DataStructure/index.md",
         },
         {
-          text: "绪论",
+          text: "数据结构基本概念",
           link: "/columnBase/DataStructure/001.md",
         },
         {
-          text: "线性表",
+          text: "算法和算法分析",
           link: "/columnBase/DataStructure/002.md",
         },
       ],
