@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   title: "Kaka Blogs",
   description: "记录",
-  lastUpdated: true,
+  lastUpdated: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/Avatar/avatar_0.png",
