@@ -16,6 +16,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "课程简介",
           link: "/columnGraphics/Graphics/index.md",
+        },
+        {
+          text: "渲染管线",
+          link: "/columnGraphics/Graphics/渲染管线.md",
         }
       ],
     },
