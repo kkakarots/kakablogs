@@ -340,8 +340,8 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/C++/index.md",
         },
         {
-          text: "TODO",
-          link: "/columnLan/C++/001.md",
+          text: "运算符",
+          link: "/columnLan/C++/运算符.md",
         },
       ],
     },
