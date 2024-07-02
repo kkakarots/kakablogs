@@ -366,6 +366,18 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "正则表达式",
           link: "/columnLan/JavaScript/正则表达式.md",
         },
+        {
+          text: "闭包",
+          link: "/columnLan/JavaScript/闭包.md",
+        },
+        {
+          text: "作用域链",
+          link: "/columnLan/JavaScript/作用域链.md",
+        },
+        {
+          text: "原型与原型链",
+          link: "/columnLan/JavaScript/原型与原型链.md",
+        },
       ],
     },
   ],
