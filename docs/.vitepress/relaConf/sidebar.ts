@@ -260,6 +260,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "cesium简介",
           link: "/columnWeb3D/Cesium/index.md",
         },
+        {
+          text: "GIS常见问题",
+          link: "/columnWeb3D/Cesium/gis.md",
+        },
       ],
     },
     {
@@ -351,6 +355,10 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "JavaScript",
       items: [
         {
+          text: "简介",
+          link: "/columnLan/JavaScript/简介.md",
+        },
+        {
           text: "Useful",
           link: "/columnLan/JavaScript/index.md",
         },
@@ -377,6 +385,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "原型与原型链",
           link: "/columnLan/JavaScript/原型与原型链.md",
+        },
+        {
+          text: "继承",
+          link: "/columnLan/JavaScript/继承.md",
         },
       ],
     },
