@@ -418,6 +418,30 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "算法和算法分析",
           link: "/columnBase/DataStructure/002.md",
         },
+        {
+          text: "线性表",
+          link: "/columnBase/DataStructure/线性表.md",
+        },
+        {
+          text: "二叉树和森林",
+          link: "/columnBase/DataStructure/二叉树和森林.md",
+        },
+        {
+          text: "图",
+          link: "/columnBase/DataStructure/图.md",
+        },
+        {
+          text: "查找",
+          link: "/columnBase/DataStructure/查找.md",
+        },
+        {
+          text: "排序",
+          link: "/columnBase/DataStructure/排序.md",
+        },
+        {
+          text: "矩阵和串",
+          link: "/columnBase/DataStructure/矩阵和串.md",
+        },
       ],
     },
   ],
