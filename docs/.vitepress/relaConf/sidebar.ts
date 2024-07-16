@@ -423,6 +423,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnBase/DataStructure/线性表.md",
         },
         {
+          text: "栈和队列",
+          link: "/columnBase/DataStructure/栈和队列.md",
+        },
+        {
           text: "二叉树和森林",
           link: "/columnBase/DataStructure/二叉树和森林.md",
         },
