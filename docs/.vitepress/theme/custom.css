@@ -8,5 +8,11 @@
 }
 
 :root {
-  --vp-layout-max-width: 1920px
+  /* 间距 */
+  /* --vp-layout-max-width: 1920px */
 }
+/* 左边栏 */
+/* .VPSidebar {
+  padding-left: 32px !important;
+  width: auto !important;
+} */
