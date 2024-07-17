@@ -59,6 +59,8 @@ For old vertices (e.g. degree 6 vertices here):
 ### Simplification (简化)
 Goal: reduce number of mesh elements while maintaining the overall shape (目标: 在保持整体形状的同时减少网格元素的数)
 
+距离模型远时效果相差不大, 可根据需求进行选择
+
 <img src="./images/geo0314.png" style="margin: 2px auto; max-width: 70%;">
 
 #### Collapsing An Edge (坍塌一条边)
@@ -78,8 +80,11 @@ Goal: reduce number of mesh elements while maintaining the overall shape (目标
 <img src="./images/geo0316.png" style="margin: 2px auto; max-width: 70%;">
 
 #### Quadric Error of Edge Collapse (边塌缩的二次误差)
+- How much does it cost to collapse an edge? 
+- Idea: compute edge midpoint, measure quadric error
+- Better idea: choose point that minimizes quadric error 
+
+#### Quadric Error Mesh Simplification
+<img src="./images/geometry03简化.png" style="margin: 2px auto; max-width: 70%;">
 
 
-### Regularization (正则化/规范化)
-
- /** 视频到22min */
