@@ -72,6 +72,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnGraphics/Graphics/geometry3.md",
         },
         {
+          text: "阴影贴图(Shadow mapping)",
+          link: "/columnGraphics/Graphics/阴影贴图.md",
+        },
+        {
           text: "光线追踪(Ray Tracing 1)",
           link: "/columnGraphics/Graphics/raytracing1.md",
         },
@@ -346,6 +350,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "运算符",
           link: "/columnLan/C++/运算符.md",
+        },
+        {
+          text: "Vector",
+          link: "/columnLan/C++/vector.md",
         },
       ],
     },
