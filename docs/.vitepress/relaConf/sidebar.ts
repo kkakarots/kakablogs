@@ -548,6 +548,26 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/columnFront/React/": [
+    {
+      text: "简介",
+      items: [
+        {
+          text: "React",
+          link: "/columnFront/React/index.md",
+        },
+      ],
+    },
+    {
+      text: "常用",
+      items: [
+        {
+          text: "登录鉴权",
+          link: "/columnFront/React/登录鉴权.md",
+        },
+      ],
+    },
+  ],
 
   /**
    * 项目

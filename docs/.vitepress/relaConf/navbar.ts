@@ -112,6 +112,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "Vue3",
         link: "/columnFront/Vue3/",
       },
+      {
+        text: "React",
+        link: "/columnFront/React/",
+      },
     ],
   },
   // {
