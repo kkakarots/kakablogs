@@ -565,6 +565,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "登录鉴权",
           link: "/columnFront/React/登录鉴权.md",
         },
+        {
+          text: "主题切换",
+          link: "/columnFront/React/主题切换.md",
+        },
       ],
     },
   ],
