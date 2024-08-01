@@ -525,6 +525,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "Http",
           link: "/columnFront/Com/http.md",
         },
+        {
+          text: "Node.js",
+          link: "/columnFront/Com/nodejs.md",
+        },
       ],
     },
   ],
