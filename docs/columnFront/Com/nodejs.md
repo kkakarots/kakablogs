@@ -9,3 +9,7 @@
 
 
 :::
+
+**发现了个nodejs笔记的开源项目，这页留着记录真实开发时遇到的问题就行了**
+
+https://nqdeng.github.io/7-days-nodejs/
