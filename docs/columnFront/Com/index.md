@@ -15,12 +15,21 @@ npm config get registry
 :::
 ## NVM
 
-::: tip 淘宝镜像
+::: tip 下载后设置
 
 ```
 // ../settings
 node_mirror: https://cdn.npmmirror.com/binaries/node/
 npm_mirror: https://cdn.npmmirror.com/binaries/npm/
+```
+:::
+## Git
+
+::: tip 用户设置
+
+``` cmd
+git config user.name
+git config user.email
 ```
 :::
 
