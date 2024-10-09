@@ -13,6 +13,25 @@ npm config set registry https://registry.npmmirror.com
 npm config get registry
 
 :::
+## NVM
+
+::: tip 下载后设置
+
+```
+// ../settings
+node_mirror: https://cdn.npmmirror.com/binaries/node/
+npm_mirror: https://cdn.npmmirror.com/binaries/npm/
+```
+:::
+## Git
+
+::: tip 用户设置
+
+``` cmd
+git config user.name
+git config user.email
+```
+:::
 
 ## 注释
 **编码习惯**
