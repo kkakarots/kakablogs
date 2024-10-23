@@ -367,6 +367,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/简介.md",
         },
         {
+          text: "随笔",
+          link: "/columnLan/JavaScript/随笔.md",
+        },
+        {
           text: "Useful",
           link: "/columnLan/JavaScript/index.md",
         },
