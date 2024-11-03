@@ -297,6 +297,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "3d文字",
           link: "/columnWeb3D/Cesium/006.md",
         },
+        {
+          text: "实体与地球遮挡关系优化",
+          link: "/columnWeb3D/Cesium/实体与地球遮挡关系优化.md",
+        },
       ],
     },
   ],
