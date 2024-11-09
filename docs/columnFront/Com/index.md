@@ -25,6 +25,18 @@ npm_mirror: https://cdn.npmmirror.com/binaries/npm/
 :::
 ## Git
 
+::: tip 代码分支管理
+
+- 三个环境
+  - dev(开发环境)
+  - test(测试环境)
+  - master(生产环境)
+- 分支管理
+  - feature-1.0.0(开发分支):[1.重大更新 0.新增/删除功能 0.修改bug] 合并到-dev分支
+  - hotfix-x.x.x(热补丁)
+
+:::
+
 ::: tip 用户设置
 
 ``` cmd
