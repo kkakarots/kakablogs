@@ -36,7 +36,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: 'Kaka',
-      copyright: 'kakarots@foxmail.com'
+      copyright: 'kaka.workm@qq.com'
     },
     // 本地搜索
     search: {

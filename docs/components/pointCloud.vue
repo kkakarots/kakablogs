@@ -18,7 +18,7 @@
 import * as THREE from 'three';
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { defineComponent, onMounted, onUnmounted, ref, reactive, toRaw } from "vue";
-const list = ['地址：陕西省西安市', '邮箱：kakarots@foxmail.com', 'QQ：35688351', '微信：nokkbb'];
+const list = ['地址：陕西省西安市', '邮箱：kaka.workm@qq.com', 'QQ：35688351', '微信：nokkbb'];
 /*** 场景***/
 
 const scene = new THREE.Scene();
