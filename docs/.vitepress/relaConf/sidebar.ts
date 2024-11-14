@@ -265,8 +265,21 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnWeb3D/Cesium/index.md",
         },
         {
-          text: "GIS常见问题",
+          text: "常见问题",
           link: "/columnWeb3D/Cesium/gis.md",
+        },
+      ],
+    },
+    {
+      text: "源码解析",
+      items: [
+        {
+          text: "源码解析-上",
+          link: "/columnWeb3D/Cesium/源码解析-上.md",
+        },
+        {
+          text: "源码解析-下",
+          link: "/columnWeb3D/Cesium/源码解析-下.md",
         },
       ],
     },
