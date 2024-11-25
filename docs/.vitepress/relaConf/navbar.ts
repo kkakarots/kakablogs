@@ -8,8 +8,12 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "图形学",
     items: [
       {
-        text: "图形学基础(GAMES101)",
+        text: "图形学基础(Games 101)",
         link: "/columnGraphics/Graphics/",
+      },
+      {
+        text: "着色器(Shader)",
+        link: "/columnGraphics/Shader/",
       },
       {
         text: "OpenGL",
@@ -109,7 +113,7 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/columnFront/Com/",
       },
       {
-        text: "Vue3",
+        text: "Vue",
         link: "/columnFront/Vue3/",
       },
       {

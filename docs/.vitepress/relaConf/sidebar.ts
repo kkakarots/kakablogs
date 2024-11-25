@@ -118,6 +118,28 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/columnGraphics/Shader/": [
+    // First part
+    {
+      text: "简介",
+      items: [
+        {
+          text: "着色器简介",
+          link: "/columnGraphics/Shader/index.md",
+        }
+      ],
+    },
+    // Second part
+    {
+      text: "内容",
+      items: [
+        {
+          text: "基础",
+          link: "/columnGraphics/Shader/index.md",
+        }
+      ],
+    },
+  ],
   "/columnGraphics/OpenGL/": [
     // First part
     {
@@ -396,8 +418,8 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/数组.md",
         },
         {
-          text: "少关注的点",
-          link: "/columnLan/JavaScript/001.md",
+          text: "函数",
+          link: "/columnLan/JavaScript/函数.md",
         },
         {
           text: "正则表达式",
@@ -421,6 +443,15 @@ export const sidebar: DefaultTheme.Sidebar = {
         },
       ],
     },
+    {
+      text: "面试题",
+      items: [
+        {
+          text: "面试题",
+          link: "/columnLan/JavaScript/面试题.md",
+        },
+      ]
+    }
   ],
 
   /**
