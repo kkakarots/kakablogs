@@ -454,6 +454,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "面试题",
           link: "/columnLan/JavaScript/面试题.md",
         },
+        {
+          text: "代码执行顺序",
+          link: "/columnLan/JavaScript/代码执行顺序.md",
+        },
       ]
     }
   ],
