@@ -418,6 +418,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/JavaScript/数组.md",
         },
         {
+          text: "类",
+          link: "/columnLan/JavaScript/类.md",
+        },
+        {
           text: "函数",
           link: "/columnLan/JavaScript/函数.md",
         },
