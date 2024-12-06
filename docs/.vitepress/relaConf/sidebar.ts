@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "渲染管线",
           link: "/columnGraphics/Graphics/渲染管线.md",
-        }
+        },
       ],
     },
     // Second part
@@ -126,7 +126,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "着色器简介",
           link: "/columnGraphics/Shader/index.md",
-        }
+        },
       ],
     },
     // Second part
@@ -136,7 +136,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "基础",
           link: "/columnGraphics/Shader/index.md",
-        }
+        },
       ],
     },
   ],
@@ -224,6 +224,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "State Diagram",
           link: "/columnGraphics/WebGL/基础概念/StateDiagram.md",
+        },
+      ],
+    },
+    // Third part
+    {
+      text: "其它",
+      items: [
+        {
+          text: "帧缓冲",
+          link: "/columnGraphics/WebGL/其它/帧缓冲.md",
         },
       ],
     },
@@ -378,7 +388,7 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─ JavaScript
    * └─ TypeScript
    */
-   "/columnLan/C++/": [
+  "/columnLan/C++/": [
     {
       text: "C++",
       items: [
@@ -458,8 +468,8 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "代码执行顺序",
           link: "/columnLan/JavaScript/代码执行顺序.md",
         },
-      ]
-    }
+      ],
+    },
   ],
 
   /**
