@@ -235,6 +235,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "帧缓冲",
           link: "/columnGraphics/WebGL/其它/帧缓冲.md",
         },
+        {
+          text: "CAE",
+          link: "/columnGraphics/WebGL/其它/CAE.md",
+        },
       ],
     },
   ],
@@ -455,15 +459,19 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "继承",
           link: "/columnLan/JavaScript/继承.md",
         },
+        {
+          text: "图形开发",
+          link: "/columnLan/JavaScript/threejs.md",
+        },
       ],
     },
     {
       text: "面试题",
       items: [
-        {
-          text: "面试题",
-          link: "/columnLan/JavaScript/面试题.md",
-        },
+        // {
+        //   text: "面试题",
+        //   link: "/columnLan/JavaScript/面试题.md",
+        // },
         {
           text: "代码执行顺序",
           link: "/columnLan/JavaScript/代码执行顺序.md",
