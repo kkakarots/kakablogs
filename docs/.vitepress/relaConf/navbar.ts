@@ -8,11 +8,11 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "图形学",
     items: [
       {
-        text: "图形学基础(Games 101)",
+        text: "图形学基础(Games 101)*",
         link: "/columnGraphics/Graphics/",
       },
       {
-        text: "着色器(Shader)",
+        text: "着色器(Shader)*",
         link: "/columnGraphics/Shader/",
       },
       {
@@ -20,11 +20,11 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/columnGraphics/OpenGL/",
       },
       {
-        text: "WebGL",
+        text: "WebGL*",
         link: "/columnGraphics/WebGL/",
       },
       {
-        text: "WebGPU",
+        text: "WebGPU*",
         link: "/columnGraphics/WebGPU/",
       },
       {
@@ -37,11 +37,11 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "Web3D",
     items: [
       {
-        text: "cesium",
+        text: "cesium*",
         link: "/columnWeb3D/Cesium/",
       },
       {
-        text: "three.js",
+        text: "three.js*",
         link: "/columnWeb3D/Threejs/",
       },
       {
@@ -54,7 +54,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "编程语言",
     items: [
       {
-        text: "C++",
+        text: "C++*",
         link: "/columnLan/C++/",
       },
       {
@@ -62,11 +62,11 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/columnLan/Java/",
       },
       {
-        text: "JavaScript",
+        text: "JavaScript*",
         link: "/columnLan/JavaScript/",
       },
       {
-        text: "TypeScript",
+        text: "TypeScript*",
         link: "/columnLan/TypeScript/",
       },
     ],
@@ -83,11 +83,11 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/columnBase/OS/",
       },
       {
-        text: "数据结构",
+        text: "数据结构*",
         link: "/columnBase/DataStructure/",
       },
       {
-        text: "程序设计",
+        text: "程序设计*",
         link: "/columnBase/Programming/",
       },
     ],
@@ -109,7 +109,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "前端",
     items: [
       {
-        text: "Web开发",
+        text: "Web开发*",
         link: "/columnFront/Com/",
       },
       {

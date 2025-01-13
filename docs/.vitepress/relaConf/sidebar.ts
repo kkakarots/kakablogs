@@ -401,6 +401,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/C++/index.md",
         },
         {
+          text: "915",
+          link: "/columnLan/C++/915.md",
+        },
+        {
           text: "运算符",
           link: "/columnLan/C++/运算符.md",
         },
