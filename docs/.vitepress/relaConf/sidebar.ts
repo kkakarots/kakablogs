@@ -372,6 +372,15 @@ export const sidebar: DefaultTheme.Sidebar = {
         },
       ],
     },
+    {
+      text: "点云标注(自动驾驶)",
+      items: [
+        {
+          text: "Xtreme",
+          link: "/columnWeb3D/Threejs/xtreme1.md",
+        },
+      ],
+    },
   ],
   "/columnWeb3D/Universal/": [
     {
