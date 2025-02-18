@@ -493,6 +493,18 @@ export const sidebar: DefaultTheme.Sidebar = {
     },
   ],
 
+  "/columnLan/TypeScript/": [
+    {
+      text: "TypeScript",
+      items: [
+        {
+          text: "TS",
+          link: "/columnLan/TypeScript/index.md",
+        },
+      ],
+    },
+  ],
+
   /**
    * 计算机基础
    * ├─ 计算机网络
