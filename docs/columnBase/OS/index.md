@@ -8,7 +8,9 @@
 echo 'Hi Kaka';
 ```
 
-## 命令
+## 命令示例
 
 > ls /
 <img src="./images/ls.png" alt="" title="" style="margin: 0 auto;">
+
+> 多采用图形化管理工具来操作
