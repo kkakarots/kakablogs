@@ -507,10 +507,10 @@ export const sidebar: DefaultTheme.Sidebar = {
 
   /**
    * 计算机基础
-   * ├─ 计算机网络
-   * ├─ 操作系统
    * ├─ 数据结构
-   * └─ 程序设计
+   * ├─ 程序设计
+   * ├─ 操作系统
+   * └─ 计算机网络
    */
   "/columnBase/DataStructure/": [
     // First part
@@ -596,6 +596,17 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "动态规划",
           link: "/columnBase/Programming/动态规划.md",
+        },
+      ],
+    },
+  ],
+  "/columnBase/OS/": [
+    {
+      text: "Linux",
+      items: [
+        {
+          text: "简介",
+          link: "/columnBase/OS/index.md",
         },
       ],
     },

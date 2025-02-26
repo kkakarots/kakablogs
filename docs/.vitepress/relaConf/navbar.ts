@@ -37,7 +37,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "Web3D",
     items: [
       {
-        text: "cesium*",
+        text: "cesium",
         link: "/columnWeb3D/Cesium/",
       },
       {
