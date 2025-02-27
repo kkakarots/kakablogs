@@ -513,7 +513,7 @@ export const sidebar: DefaultTheme.Sidebar = {
    * └─ 计算机网络
    */
   "/columnBase/DataStructure/": [
-    // First part
+    // basic concept 基础概念
     {
       text: "数据结构",
       items: [
@@ -559,6 +559,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         },
       ],
     },
+    // algorithm 常见算法
+    {
+      text: "常见算法",
+      items: [
+        {
+          text: "Algorithm",
+          link: "/columnBase/DataStructure/算法.md",
+        },
+      ],
+    }
   ],
   "/columnBase/Programming/": [
     // First part
