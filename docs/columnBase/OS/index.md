@@ -3,7 +3,7 @@
 ## 基础概念
 
 ``` sh
-# 注解
+# 注解--Shell脚本
 # 输出
 echo 'Hi Kaka';
 ```
@@ -13,4 +13,4 @@ echo 'Hi Kaka';
 > ls /
 <img src="./images/ls.png" alt="" title="" style="margin: 0 auto;">
 
-> 多采用图形化管理工具来操作
+> 多采用图形化管理工具来操作 (MobaXterm)
