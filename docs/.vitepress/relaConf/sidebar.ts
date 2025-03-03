@@ -502,6 +502,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/columnLan/TypeScript/index.md",
         },
         {
+          text: "类型",
+          link: "/columnLan/TypeScript/类型.md",
+        },
+        {
           text: "泛型函数",
           link: "/columnLan/TypeScript/泛型.md",
         },
