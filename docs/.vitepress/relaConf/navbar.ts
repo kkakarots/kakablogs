@@ -122,6 +122,10 @@ export const nav: DefaultTheme.NavItem[] = [
       },
     ],
   },
+  {
+    text: "Kaka",
+    link: "/columnUser/Info/",
+  },
   // {
   //   text: "项目",
   //   items: [

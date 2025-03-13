@@ -5,7 +5,7 @@
     "vitepress": "^1.0.0-rc.40"
   },
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --port 7100",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
