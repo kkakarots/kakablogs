@@ -1,22 +1,23 @@
 
 **##ORDER**
 ::: tip ORDER
-First:WORK
 
-Second:XIANJIAODA
+- First:WORK
+
+- Second:XIANJIAODA
   - CODE
   - EN
   - MATH
   - POLITY
 
-Third:WEB3D
+- Third:WEB3D
   - THREE
   - CESIUM
   - WEBGL/WEBGPU
 
-Fourth:BACKEND
+- Fourth:BACKEND
 
-Fifth:MYPROJECT
+- Fifth:MYPROJECT
   - SPACEHORIZON(WEB)
   - APP~(TODO)
   - GAME~(TODO)
