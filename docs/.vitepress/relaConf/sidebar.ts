@@ -661,6 +661,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "Node.js",
           link: "/columnFront/Com/nodejs.md",
         },
+        {
+          text: "常见问题",
+          link: "/columnFront/Com/常见问题.md",
+        },
       ],
     },
   ],
