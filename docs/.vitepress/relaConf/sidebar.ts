@@ -629,6 +629,17 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/columnBase/Network/": [
+    {
+      text: "common",
+      items: [
+        {
+          text: "简介",
+          link: "/columnBase/Network/index.md",
+        },
+      ],
+    },
+  ],
 
   /**
    * 后端

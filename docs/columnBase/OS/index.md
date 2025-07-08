@@ -14,3 +14,5 @@ echo 'Hi Kaka';
 <img src="./images/ls.png" alt="" title="" style="margin: 0 auto;">
 
 > 多采用图形化管理工具来操作 (MobaXterm)
+
+## Ubuntu Linux
