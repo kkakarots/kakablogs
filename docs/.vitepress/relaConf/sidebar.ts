@@ -399,7 +399,8 @@ export const sidebar: DefaultTheme.Sidebar = {
    * ├─ C++
    * ├─ Java
    * ├─ JavaScript
-   * └─ TypeScript
+   * ├─ TypeScript
+   * └─ Common
    */
   "/columnLan/C++/": [
     {
@@ -508,6 +509,17 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: "泛型函数",
           link: "/columnLan/TypeScript/泛型.md",
+        },
+      ],
+    },
+  ],
+  "/columnLan/common/": [
+    {
+      text: "common",
+      items: [
+        {
+          text: "通用",
+          link: "/columnLan/common/index.md",
         },
       ],
     },

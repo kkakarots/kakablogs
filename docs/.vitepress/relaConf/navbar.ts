@@ -69,6 +69,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "TypeScript*",
         link: "/columnLan/TypeScript/",
       },
+      {
+        text: "Common",
+        link: "/columnLan/common/",
+      },
     ],
   },
   {

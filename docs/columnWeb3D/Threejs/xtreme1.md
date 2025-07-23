@@ -27,3 +27,5 @@
 [Tweenjs]()
 ## ...
 
+### 架构图
+<img src="./images/xtreme1.png" title="架构图" style="margin: 0 auto;">
