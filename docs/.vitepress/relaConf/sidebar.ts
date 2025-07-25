@@ -21,6 +21,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "渲染管线",
           link: "/columnGraphics/Graphics/渲染管线.md",
         },
+        {
+          text: "帧同步",
+          link: "/columnGraphics/Graphics/帧同步.md",
+        },
       ],
     },
     // Second part
