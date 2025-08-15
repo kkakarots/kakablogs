@@ -374,6 +374,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "参数建模",
           link: "/columnWeb3D/Threejs/001.md",
         },
+        {
+          text: "stats",
+          link: "/columnWeb3D/Threejs/stats.md",
+        },
       ],
     },
     {

@@ -6,3 +6,22 @@ node_modules
 .vitepress/cache
 
 docs/.vitepress/dist
+docs/.vitepress/cache/deps/_metadata.json
+docs/.vitepress/cache/deps/chunk-Q2PVISAP.js
+docs/.vitepress/cache/deps/chunk-Q2PVISAP.js.map
+docs/.vitepress/cache/deps/three_examples_jsm_controls_OrbitControls__js.js
+docs/.vitepress/cache/deps/three_examples_jsm_controls_OrbitControls__js.js.map
+docs/.vitepress/cache/deps/three.js
+docs/.vitepress/cache/deps/three.js.map
+docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js
+docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map
+docs/.vitepress/cache/deps/vitepress___@vueuse_core.js
+docs/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js
+docs/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js.map
+docs/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js
+docs/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js.map
+docs/.vitepress/cache/deps/vitepress___minisearch.js
+docs/.vitepress/cache/deps/vitepress___minisearch.js.map
+docs/.vitepress/cache/deps/vitepress-plugin-image-viewer.js
+docs/.vitepress/cache/deps/vitepress-plugin-image-viewer.js.map
+docs/.vitepress/cache/deps/vue.js
