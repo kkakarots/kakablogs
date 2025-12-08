@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 图形学入门
-      link: /columnGraphics/Graphics/
+      link: /Graphics/Graphics/
     - theme: alt
       text: OpenGL
-      link: /columnGraphics/OpenGL/
+      link: /Graphics/OpenGL/
     - theme: alt
       text: 学习路线
       link: https://roadmap.sh/

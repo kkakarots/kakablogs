@@ -9,27 +9,27 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "图形学基础(Games 101)*",
-        link: "/columnGraphics/Graphics/",
+        link: "/Graphics/Graphics/",
       },
       {
         text: "着色器(Shader)*",
-        link: "/columnGraphics/Shader/",
+        link: "/Graphics/Shader/",
       },
       {
         text: "OpenGL",
-        link: "/columnGraphics/OpenGL/",
+        link: "/Graphics/OpenGL/",
       },
       {
         text: "WebGL*",
-        link: "/columnGraphics/WebGL/",
+        link: "/Graphics/WebGL/",
       },
       {
         text: "WebGPU*",
-        link: "/columnGraphics/WebGPU/",
+        link: "/Graphics/WebGPU/",
       },
       {
         text: "DirectX",
-        link: "/columnGraphics/DirectX/",
+        link: "/Graphics/DirectX/",
       },
     ],
   },
@@ -38,15 +38,15 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "cesium",
-        link: "/columnWeb3D/Cesium/",
+        link: "/Web3D/Cesium/",
       },
       {
         text: "Three.js※",
-        link: "/columnWeb3D/Threejs/",
+        link: "/Web3D/Threejs/",
       },
       {
         text: "常见问题",
-        link: "/columnWeb3D/Universal/",
+        link: "/Web3D/Universal/",
       },
     ],
   },
@@ -55,23 +55,23 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "C++*",
-        link: "/columnLan/C++/",
+        link: "/Lan/C++/",
       },
       {
         text: "Java",
-        link: "/columnLan/Java/",
+        link: "/Lan/Java/",
       },
       {
         text: "JavaScript*",
-        link: "/columnLan/JavaScript/",
+        link: "/Lan/JavaScript/",
       },
       {
         text: "TypeScript*",
-        link: "/columnLan/TypeScript/",
+        link: "/Lan/TypeScript/",
       },
       {
         text: "Common",
-        link: "/columnLan/common/",
+        link: "/Lan/common/",
       },
     ],
   },
@@ -80,19 +80,19 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "计算机网络",
-        link: "/columnBase/NetWork/",
+        link: "/Base/NetWork/",
       },
       {
         text: "操作系统",
-        link: "/columnBase/OS/",
+        link: "/Base/OS/",
       },
       {
         text: "数据结构*",
-        link: "/columnBase/DataStructure/",
+        link: "/Base/DataStructure/",
       },
       {
         text: "程序设计*",
-        link: "/columnBase/Programming/",
+        link: "/Base/Programming/",
       },
     ],
   },
@@ -101,11 +101,11 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "数据库",
-        link: "/columnBack/Database/",
+        link: "/Back/Database/",
       },
       {
         text: "即时通信",
-        link: "/columnBack/Message/",
+        link: "/Back/Message/",
       },
     ],
   },
@@ -114,28 +114,28 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: "Web开发*",
-        link: "/columnFront/Com/",
+        link: "/Front/Com/",
       },
       {
         text: "Vue",
-        link: "/columnFront/Vue3/",
+        link: "/Front/Vue3/",
       },
       {
         text: "React",
-        link: "/columnFront/React/",
+        link: "/Front/React/",
       },
     ],
   },
   {
     text: "Kaka",
-    link: "/columnUser/Info/",
+    link: "/User/Info/",
   },
   // {
   //   text: "项目",
   //   items: [
   //     {
   //       text: "设计软件",
-  //       link: "/columnProject/DesignSW/",
+  //       link: "/Project/DesignSW/",
   //     },
   //   ],
   // },
