@@ -1,5 +1,8 @@
 # Web开发通用
 
+## 环境
+<img src="./images/开发环境.png" title="common" style="margin: 0 auto;">
+
 ## NPM
 
 ::: tip 淘宝镜像
